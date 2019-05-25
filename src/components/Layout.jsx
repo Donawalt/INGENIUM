@@ -11,7 +11,10 @@ export default ({ children }) => (
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
       <title>INGENIUM || Portfolio</title>
-      <meta name="description" content="" />
+      <meta
+        name="description"
+        content="INGENIUM est un studio de création visuel et sonore"
+      />
       <meta name="language" content="FR" />
       <html lang="fr" />
     </Helmet>
