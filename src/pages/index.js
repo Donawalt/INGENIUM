@@ -1,6 +1,8 @@
 import React from "react"
 //import UncontrolledLottie from "../components/UncontrolledLottie"
 //import ControlledLottie from "../components/ControlledLottie"
+import "../styles/reset.scss"
+import "../styles/base.scss"
 
 export default () => (
   <div>
