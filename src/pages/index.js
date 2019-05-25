@@ -9,7 +9,9 @@ export default () => (
     <section>
       <p>
         This Website is Under Construction by <br /> <br />
-        <a href="">Donaël WALTER</a>
+        <a href="https://www.donaelwalter.com/" preload>
+          Donaël WALTER
+        </a>
       </p>
       <br />
     </section>
