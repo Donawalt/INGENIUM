@@ -1,15 +1,15 @@
 import React from "react"
-import Layout from "../components/Layout"
 //import UncontrolledLottie from "../components/UncontrolledLottie"
 //import ControlledLottie from "../components/ControlledLottie"
 
 export default () => (
   <div>
-    <Layout>
-      <div>
-        <p>Acceuil</p>
-      </div>
-    </Layout>
+    <section>
+      <p>
+        This Website is Under Construction by <br /> <br />
+        <a href="">Donaël WALTER</a>
+      </p>
+      <br />
+    </section>
   </div>
 )
-

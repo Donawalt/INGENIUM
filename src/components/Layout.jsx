@@ -3,6 +3,9 @@ import Helmet from "react-helmet"
 import Header from "./Header"
 import Footer from "./Footer"
 
+import "../styles/reset.scss"
+import "../styles/base.scss"
+
 export default ({ children }) => (
   <div className="MainApp" id="MainApp">
     <Helmet>
