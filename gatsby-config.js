@@ -4,6 +4,7 @@ module.exports = {
     description: ``,
     author: `Donaël WALTER`,
     owner: [`Benjamin`, `Charlie`, `Timothée`],
+    siteUrl: "https://demo-ingenium-portfolio.netlify.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
