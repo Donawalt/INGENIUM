@@ -14,8 +14,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: __dirname,
-        sitemap: `${__dirname}/sitemap.xml`,
+        host: "https://demo-ingenium-portfolio.netlify.com/",
+        sitemap: `https://demo-ingenium-portfolio.netlify.com/sitemap.xml`,
         policy: [{ userAgent: "*", disallow: "" }],
       },
     },
