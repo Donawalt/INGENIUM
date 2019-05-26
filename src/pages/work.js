@@ -7,11 +7,11 @@ import Layout from "../components/Layout"
 export default () => (
   <div>
     <Helmet>
-      <title>INGENIUM || Contact</title>
+      <title>INGENIUM ||travaux</title>
     </Helmet>
     <Layout>
       <div>
-        <p>Contact</p>
+        <p>travaux</p>
       </div>
     </Layout>
   </div>
