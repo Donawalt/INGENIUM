@@ -13,7 +13,6 @@ export default ({ children }) => (
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <title>INGENIUM || Portfolio</title>
       <meta
         name="description"
         content="INGENIUM est un studio de création visuel et sonore"
@@ -22,7 +21,7 @@ export default ({ children }) => (
       <html lang="fr" />
     </Helmet>
     <Header />
-    <div> {children} </div>
+    <main> {children} </main>
     <Footer />
   </div>
 )
