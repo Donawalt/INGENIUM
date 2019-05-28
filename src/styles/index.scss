@@ -1,8 +1,8 @@
-section{
+.introCover{
   overflow: hidden;
   margin-top: -50px;
   video{
-  position: absolute;
+    position: fixed;
    min-width: 100%;
    min-height: 100%;
    width: auto;
@@ -59,4 +59,7 @@ section{
       }
     }
   }
+}
+section:nth-child(2){
+  background-color: black;
 }
