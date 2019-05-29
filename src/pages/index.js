@@ -28,7 +28,7 @@ export default () => (
           <filter id="filterSVG">
             <feTurbulence type="fractalNoise" baseFrequency="0.10" numOctaves="2" result="warpper"/>
             <feColorMatrix in="warpper" type="hueRotate">
-            <animate attributeType="XML" attributeName="values" values="0;110;150;210;360;600;360;210;0" dur="5s" repeatCount="indefinite"/>
+            <animate attributeType="XML" attributeName="values" values="0;110;150;210;360;500;360;210;150;110;0" dur="5s" repeatCount="indefinite"/>
             </feColorMatrix>
             <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="70" in="SourceGraphic"/>
             </filter>
