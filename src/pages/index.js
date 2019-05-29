@@ -19,7 +19,10 @@ export default () => (
   <Layout>
     <section className="introCover">
       <VideoComponent type="video/mp4" autoPlay="true" loop="true" controls={false} srcVideo={'background.mp4'} muted={false} />
-      <h1 className="mainTitle">INGENIVM</h1>
+      <div className="mainTitle">
+        <h1>INGENIVM</h1>
+        <h2>STUDIO DE CRÉATION VISUELLE ET SONORE </h2>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
         <defs>
           <filter id="filterSVG">

@@ -18,19 +18,35 @@
   }
   .mainTitle{
     z-index: 1;
-    font-size: 200px;
     color: yellow;
-    font-family: serif;
     overflow-y: hidden;
     width: 100vw;
     text-align: center;
     transition: 300ms;
-    filter: url('#filterSVG');
     color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.25);
     &:hover{
       transition: 300ms;
-      color: yellow;
+      color: white;
       filter: none;
+    }
+    h1{
+      font-size: 200px;
+      font-family: serif;
+      filter: url('#filterSVG');
+      &:hover{
+        filter: none;
+      }
+    }
+    h2{
+      &:hover{
+        transition: 100ms;
+      }
     }
   }
 }
