@@ -20,6 +20,17 @@ export default () => (
     <section className="introCover">
       <VideoComponent type="video/mp4" autoPlay="true" loop="true" controls={false} srcVideo={'background.mp4'} muted={false} />
       <h1 className="mainTitle">INGENIVM</h1>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="filterSVG">
+            <feTurbulence type="fractalNoise" baseFrequency="0.10" numOctaves="2" result="warpper"/>
+            <feColorMatrix in="warpper" type="hueRotate">
+            <animate attributeType="XML" attributeName="values" values="0;110;150;210;360;600;360;210;0" dur="5s" repeatCount="indefinite"/>
+            </feColorMatrix>
+            <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="70" in="SourceGraphic"/>
+            </filter>
+            </defs>
+      </svg>
     </section>
     <section>
 
