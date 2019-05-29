@@ -9,7 +9,7 @@ export default () => (
     <Helmet>
       <title>INGENIUM || Contact</title>
       <meta property="og:title" content="INGENIUM || Contact"/>
-      <meta property="og:description" content="INGENIUM est un studio de création visuel et sonore"/>
+      <meta property="og:description" content="INGENIUM est un studio de création visuelle et sonore"/>
     </Helmet>
     <Layout>
       <div>

@@ -15,7 +15,7 @@ export default ({ children }) => (
       />
       <meta
         name="description"
-        content="INGENIUM est un studio de création visuel et sonore"
+        content="INGENIUM est un studio de création visuelle et sonore"
       />
       <meta name="language" content="FR" />
       <html lang="fr" />

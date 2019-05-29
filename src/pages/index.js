@@ -11,7 +11,7 @@ export default () => (
   <Helmet>
   <title>INGENIUM || Portfolio</title>
   <meta property="og:title" content="INGENIUM || Portfolio"/>
-  <meta property="og:description" content="INGENIUM est un studio de création visuel et sonore"/>
+  <meta property="og:description" content="INGENIUM est un studio de création visuelle et sonore"/>
   {/*<meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
   <meta property="og:url" content="http://euro-travel-example.com/index.htm">
   <meta name="twitter:card" content="summary_large_image">*/}
